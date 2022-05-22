@@ -1,0 +1,312 @@
+/* Для ссылок и кнопок */
+
+a:hover 
+{
+    transition: .3s;
+    color: #0081db;
+    border-color: currentColor;
+}
+
+.additional-button:hover
+{
+    color: #0081db;
+    border-color: currentColor;
+}
+
+input[type="submit"]:hover
+{
+    background-color: #0081db;
+    color: #fff;
+}
+
+.button
+{
+    background-color: #0081db;
+    border: 2px solid currentColor;
+    border-color: #0081db;
+}
+
+.button:hover 
+{
+    background-color: #fff !important;
+    color: #0081db !important;
+    border-color: #0081db !important;
+}
+
+.ref 
+{
+    color: #0081db;
+    border: solid 2px currentColor;
+    background-color: transparent
+}
+.ref:hover 
+{
+  
+    background-color: #0081db;
+    border: 2px solid #0081db;
+}
+
+/* Шапка */
+
+.header-bottom-left .header-menu-list li .header-menu__link_active a, .header-bottom-left .header-menu-list a:hover  
+{
+    color: #0081db;
+}
+.choice-lang a:hover, .choice-lang .active 
+{
+    border-color: #0081db;
+    color: #0081db;
+}
+
+/* SVG-иконки */
+
+.img-svg path, .img-svg line, .img-svg circle 
+{
+    stroke: #0081db;
+}
+
+.main-slider .tns-nav button.tns-nav-active 
+{
+    background-color: #0081db;
+}
+
+/* Услуги на главной */
+
+.services-content-block:hover
+{
+    background-color: #0081db;
+}
+.services-content-block:hover * 
+{
+    color: #ffffff;
+}
+
+/* Отзывы на главной */
+
+.reviews-content-block-content__company
+{
+    color: #0081db;
+}
+
+/* Значок кавычки в отзывах на главной */
+
+.quotes 
+{
+    background-color: #0081db;
+}
+
+/* Стрелки для слайдера на главной */
+
+.arrows-main-slider:hover
+{
+    background-color: #0081db;
+}
+.arrows-main-slider:hover .img-svg polyline
+{
+    stroke: #ffffff;
+}
+
+/* Активный в sidebar */
+
+.sidebar-nav-list .sidebar-nav__link_active, .sidebar-nav-list .sidebar-nav__link_active:hover
+{
+    background-color: #0081db;
+    color: #ffffff;
+    pointer-events: none;
+}
+.sidebar-nav__link:hover 
+{
+    color: #0081db;
+}
+
+
+/* Блок F.A.Q. */
+
+.faq-block:hover .faq-block-question__button span
+{
+    background-color: #0081db;
+}
+.faq-block:hover .faq-block-question__text
+{
+    color: #0081db;
+}
+
+
+/* Пагинация */
+
+a.current-dot, .pagination-block a:hover
+{
+    background-color: #0081db;
+    color: #ffffff;
+}
+
+
+/* 404-страница */
+
+.block-404__title, .block-404__text a
+{
+    color: #0081db;
+}
+.block-404__text a
+{
+    border-bottom: 1px solid currentColor;
+}
+
+/* Хлебные крошки */
+
+.current-page .breadcrumbs a:hover 
+{
+    color: #0081db;
+}
+
+/* Футер */
+
+.footer-content-block .footer-nav-list li:hover a 
+{
+    color: #0081db;
+}
+
+/* Подменю */
+
+.header-bottom-left .header-menu-list li .submenu li:hover a
+{
+    color: #0081db;
+}
+
+/* Стили для checkbox */ 
+
+.checkbox__text:before 
+{
+    border: 2px solid #0081db;
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -30px;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+}
+
+.checkbox__text:after 
+{
+    border-left: 2px solid #0081db;
+    border-bottom: 2px solid #0081db;
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: -26px;
+    width: 7px;
+    height: 4px;
+    opacity: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+
+/* Подменю в услугах */
+
+.sidebar-nav-list .list-inner-services li:hover a 
+{
+    color :#0081db;
+}
+
+.sidebar-nav-list .list-inner-services li .list-inner-services__link_active 
+{
+    color: #0081db;
+    pointer-events: none;
+}
+
+/* Табы  */
+
+.tabs-items .tabs-item:hover, .tabs-items .tabs-item.tabs-item_active
+{
+    color: #0081db;
+}
+
+.tabs-items .tabs-item.tabs-item_active 
+{
+    border-color: currentColor;
+}
+
+/* Для таблицы */
+
+table thead th 
+{
+    background-color: #0081db;
+}
+
+/* Превьюшки услуг */
+
+.service-block:hover .service-block__name 
+{
+    color: #0081db;
+}
+
+/* Превьюшки новостей */
+
+.news-block:hover .news-block__name 
+{
+    color: #0081db;
+}
+
+/* Кнопка Burger */
+
+.burger-menu 
+{
+    background-color: #0081db;
+}
+
+/* Другие услуги */
+
+.other-services-block:hover .other-services-block-content__title
+{
+    color: #0081db;
+}
+
+/* Последние новости компании */
+
+.news-content-block:hover .news-content-block__name
+{
+    color: #0081db;
+}
+
+/* Маркер для списка */
+
+ul li:before
+{
+    content: '';
+    position: absolute;
+    left: -22px;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    background-color: #0081db;
+    border-radius: 50%;
+}
+
+/* Кнопка наверх */
+
+#up 
+{
+    background-color: #0081db;
+}
+
+/* Блок категории */
+
+.category-block:hover .category-block__name
+{
+    color: #0081db;
+}
+
+/* Слайдер в карточке товара */
+
+.product-info-image .product-slider-controls .arrows-main-slider:hover 
+{
+    background-color: #0081db;
+}
+
+
+
+    
+
